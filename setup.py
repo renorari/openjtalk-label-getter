@@ -10,7 +10,7 @@ setup(
     license="MIT License",
     entry_points=dict(
         console_scripts=[
-            "openjtalk_label_getter=openjtalk_label_getter:master",
+            "openjtalk_label_getter=openjtalk_label_getter:main",
         ],
     ),
 )
