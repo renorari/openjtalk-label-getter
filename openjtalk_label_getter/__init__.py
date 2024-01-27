@@ -137,8 +137,8 @@ def openjtalk_label_getter(
 
             outputs.append(
                 Label(
-                    start=int(start) / 10 / 1000 / 1000 if not without_span else None,
-                    end=int(end) / 10 / 1000 / 1000 if not without_span else None,
+                    start=int(start) if not without_span else None,
+                    end=int(end) if not without_span else None,
                     label=(
                         phoneme
                         if output_type == OutputType.phoneme

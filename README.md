@@ -9,7 +9,7 @@ sudo apt-get install -y open-jtalk open-jtalk-mecab-naist-jdic hts-voice-nitech-
 
 ## Install
 ```bash
-pip install git+https://github.com/Hiroshiba/openjtalk-label-getter
+pip install git+https://github.com/renorari/openjtalk-label-getter
 ```
 
 ## Usage
