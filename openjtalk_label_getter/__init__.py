@@ -200,7 +200,7 @@ def main():
 
     for p in outputs:
         if p.start is not None:
-            print(f"{p.start:.4f} {p.end:.4f} {p.label}")
+            print(f"{p.start} {p.end} {p.label}")
         else:
             print(f"{p.label}")
 
