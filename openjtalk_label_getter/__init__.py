@@ -69,8 +69,8 @@ class FullContextLabel:
 
 @dataclass
 class Label:
-    start: Optional[float]
-    end: Optional[float]
+    start: Optional[int]
+    end: Optional[int]
     label: Union[str, FullContextLabel]
 
 
